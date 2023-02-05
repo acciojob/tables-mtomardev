@@ -10,7 +10,8 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <table class="table table-hover">
+    <table class="table table-hover table-responsive caption-top">
+		<caption>List of all transactions</caption>
 		<thead class="table-dark">
 			<tr>
 				<th scope="col">#</th>
@@ -32,17 +33,17 @@
 				<td>Thornton</td>
 				<td>1500</td>
 			  </tr>
-			<tr>
+			<tr class="border-dark">
 				<th scope="row">3</th>
 				<td>Jack</td>
 				<td>Joan</td>
 				<td>2000</td>
 			  </tr>
 		</tbody>
-		<tfoot>
-			<tr class="table-light">
-				<td></td>
-				<td></td>
+		<tfoot class="table-light">
+			<tr>
+				<td id="total"></td>
+				<td id="total"></td>
 				<td id="total" class="text-end fw-bold font-monospace">Total</td>
 				<td  class="fw-bold"> 4000</td>
 			  </tr>
